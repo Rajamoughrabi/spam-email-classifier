@@ -23,7 +23,20 @@ UCI Spambase Dataset (4601 samples, 57 features)
 - Confusion Matrix
 
 ## Results
-Random Forest achieved the best overall F1-score.
+### Confusion Matrices
+
+**Gaussian Naive Bayes**
+![Gaussian Naive Bayes Confusion Matrix](results/confusion_matrix_gnb.png)
+
+**PyTorch Fully Connected Neural Network**
+![PyTorch Confusion Matrix](results/confusion_matrix_pytorch_fc.png)
+
+**Random Forest**
+![Random Forest Confusion Matrix](results/confusion_matrix_rf.png)
+
+### ROC Curve
+![ROC Curve](results/ROC.png)
+
 
 ## How to Run
 ```bash
